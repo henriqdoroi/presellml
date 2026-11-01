@@ -9,9 +9,9 @@
 :root{--yellow:#ffe600;--blue:#3483fa;--blue-dark:#2968c8;--text:#242424;--muted:#667085}
 *{box-sizing:border-box}
 body{margin:0;min-height:100vh;background:#fff;color:var(--text);font-family:Arial,Helvetica,sans-serif;display:flex;flex-direction:column}
-header{min-height:62px;background:var(--yellow);display:flex;align-items:center;padding:8px 22px;box-shadow:0 1px 3px #00000012}
-.logo-slot{display:flex;align-items:center;justify-content:flex-start;width:min(190px,38vw);min-height:42px}
-.custom-logo{display:block;width:100%;height:auto;max-height:100px;object-fit:contain;object-position:left center}
+header{min-height:86px;background:var(--yellow);display:flex;align-items:center;padding:10px 24px;box-shadow:0 1px 3px #00000012}
+.logo-slot{display:flex;align-items:center;justify-content:flex-start;width:clamp(210px,26vw,290px);min-height:58px}
+.custom-logo{display:block;width:100%;height:auto;max-height:68px;object-fit:contain;object-position:left center}
 main{width:min(100% - 32px,460px);margin:auto;text-align:center;padding:65px 0 70px}
 .product{font-size:13px;font-weight:700;line-height:1.45;color:#586579;margin:0 auto 17px;max-width:390px}
 .pill{display:inline-block;background:#e8f1ff;color:#2968c8;border-radius:30px;padding:9px 17px;font-size:12px;font-weight:800;letter-spacing:.6px;margin-bottom:20px}
@@ -30,9 +30,9 @@ h1{font-size:24px;line-height:1.25;letter-spacing:-.5px;margin:27px 0 9px;color:
 .cta svg{width:20px;height:20px}
 footer{padding:18px 12px 25px;text-align:center;color:#7b8794;font-size:11px;line-height:1.7}
 @media(max-width:480px){
-  header{min-height:54px;padding:7px 14px}
-  .logo-slot{width:min(155px,42vw);min-height:36px}
-  .custom-logo{max-height:38px}
+  header{min-height:70px;padding:8px 16px}
+  .logo-slot{width:clamp(185px,52vw,235px);min-height:48px}
+  .custom-logo{max-height:54px}
   main{padding:48px 0 58px}
   .percent{font-size:60px}
   h1{font-size:22px}
